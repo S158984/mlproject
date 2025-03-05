@@ -22,6 +22,6 @@ author_email='sdharshan.nalla@gmail.com',
 packages=find_packages(),
 #install_requrires=['pandas','seaborn','numpy','scikit-learn','matplotlib'],
 
-nstall_requrires=get_requirements('requirements.txt')
+install_requrires=get_requirements('requirements.txt')
 
 )
