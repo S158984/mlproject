@@ -1,0 +1,12 @@
+[ 2025-03-17 20:28:33,120 ] 27 root - INFO - insdie data reading
+[ 2025-03-17 20:28:33,122 ] 28 root - INFO - ------>>>>>>>  insdie data reading
+[ 2025-03-17 20:28:33,184 ] 31 root - INFO - data read successfully
+[ 2025-03-17 20:28:33,237 ] 39 root - INFO - data saved successfully
+[ 2025-03-17 20:28:33,263 ] 46 root - INFO - data save to folders succesfully.
+[ 2025-03-17 20:28:33,374 ] 82 root - INFO - Read train and test data completed
+[ 2025-03-17 20:28:33,374 ] 84 root - INFO - Obtaining preprocessing object
+[ 2025-03-17 20:28:33,374 ] 58 root - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2025-03-17 20:28:33,375 ] 59 root - INFO - Numerical columns: ['writing_score', 'reading_score']
+[ 2025-03-17 20:28:33,382 ] 97 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2025-03-17 20:28:33,442 ] 109 root - INFO - Saved preprocessing object.
+[ 2025-03-17 20:28:33,446 ] 34 root - INFO - Inside model training

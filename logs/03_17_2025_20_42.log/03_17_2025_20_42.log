@@ -1,0 +1,14 @@
+[ 2025-03-17 20:42:42,780 ] 27 root - INFO - insdie data reading
+[ 2025-03-17 20:42:42,781 ] 28 root - INFO - ------>>>>>>>  insdie data reading
+[ 2025-03-17 20:42:42,849 ] 31 root - INFO - data read successfully
+[ 2025-03-17 20:42:42,860 ] 39 root - INFO - data saved successfully
+[ 2025-03-17 20:42:42,905 ] 46 root - INFO - data save to folders succesfully.
+[ 2025-03-17 20:42:42,979 ] 82 root - INFO - Read train and test data completed
+[ 2025-03-17 20:42:42,980 ] 84 root - INFO - Obtaining preprocessing object
+[ 2025-03-17 20:42:42,980 ] 58 root - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2025-03-17 20:42:42,980 ] 59 root - INFO - Numerical columns: ['writing_score', 'reading_score']
+[ 2025-03-17 20:42:42,986 ] 97 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2025-03-17 20:42:43,032 ] 109 root - INFO - Saved preprocessing object.
+[ 2025-03-17 20:42:43,032 ] 18 root - INFO - saev object is called.
+[ 2025-03-17 20:42:43,035 ] 34 root - INFO - Inside model training
+[ 2025-03-17 20:42:44,750 ] 39 root - INFO - train_model_score: 0.9759461419684411

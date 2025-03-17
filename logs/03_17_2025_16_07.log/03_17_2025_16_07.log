@@ -1,0 +1,22 @@
+[ 2025-03-17 16:07:44,783 ] 25 root - INFO - insdie data reading
+[ 2025-03-17 16:07:44,783 ] 26 root - INFO - ------>>>>>>>  insdie data reading
+[ 2025-03-17 16:07:44,794 ] 29 root - INFO - data read successfully
+[ 2025-03-17 16:07:44,842 ] 37 root - INFO - data saved successfully
+[ 2025-03-17 16:07:44,896 ] 44 root - INFO - data save to folders succesfully.
+[ 2025-03-17 16:07:44,942 ] 82 root - INFO - Read train and test data completed
+[ 2025-03-17 16:07:44,942 ] 84 root - INFO - Obtaining preprocessing object
+[ 2025-03-17 16:07:44,942 ] 58 root - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2025-03-17 16:07:44,942 ] 59 root - INFO - Numerical columns: ['writing_score', 'reading_score']
+[ 2025-03-17 16:07:44,947 ] 97 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2025-03-17 16:07:44,980 ] 109 root - INFO - Saved preprocessing object.
+[ 2025-03-17 16:08:02,972 ] 25 root - INFO - insdie data reading
+[ 2025-03-17 16:08:02,972 ] 26 root - INFO - ------>>>>>>>  insdie data reading
+[ 2025-03-17 16:08:02,983 ] 29 root - INFO - data read successfully
+[ 2025-03-17 16:08:03,028 ] 37 root - INFO - data saved successfully
+[ 2025-03-17 16:08:03,087 ] 44 root - INFO - data save to folders succesfully.
+[ 2025-03-17 16:08:03,127 ] 82 root - INFO - Read train and test data completed
+[ 2025-03-17 16:08:03,128 ] 84 root - INFO - Obtaining preprocessing object
+[ 2025-03-17 16:08:03,128 ] 58 root - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2025-03-17 16:08:03,128 ] 59 root - INFO - Numerical columns: ['writing_score', 'reading_score']
+[ 2025-03-17 16:08:03,130 ] 97 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2025-03-17 16:08:03,173 ] 109 root - INFO - Saved preprocessing object.

@@ -2,8 +2,10 @@ import os
 import sys
 from src.exceptions import CustomException
 from src.logger import logging
-from src.components.data_transformation import DataTransformationClass
+#from src.components.data_transformation import DataTransformationClass
 from src.components.data_transformation import DataTransformation
+from src.components.model_trainer import ModelTrainer
+from src.components.model_trainer import ModelTrainerConfig
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -29,9 +31,9 @@ class DataIngestion:
             logging.info('data read successfully') 
             #print('--->',os.path.dirname()) 
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
-            os.makedirs(os.path.dirname(self.ingestion_config.test_data_path),exist_ok=True)
-            os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path),exist_ok=True)
-            os.makedirs('TestDir',exist_ok=True)
+            #os.makedirs(os.path.dirname(self.ingestion_config.test_data_path),exist_ok=True)
+            #os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path),exist_ok=True)
+            #os.makedirs('TestDir',exist_ok=True)
 
             df1.to_csv(self.ingestion_config.raw_data_path,index=False,header=True)
             logging.info('data saved successfully')
@@ -56,6 +58,9 @@ if __name__=="__main__":
     train_data,test_data= obj.initiate_data_ingestion()
     
     data_transformation=DataTransformation()
-    data_transformation.initiate_data_transformation(train_data,test_data)
+    train_arr, test_arr,_=data_transformation.initiate_data_transformation(train_data,test_data)
+
+    modeltrainer=ModelTrainer()
+    print(modeltrainer.initiate_model_train(train_arr,test_arr))
 
    

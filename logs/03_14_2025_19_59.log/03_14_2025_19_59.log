@@ -1,8 +1,0 @@
-[ 2025-03-14 19:59:16,874 ] 25 root - INFO - insdie data reading
-[ 2025-03-14 19:59:16,874 ] 26 root - INFO - ------>>>>>>>  insdie data reading
-[ 2025-03-14 19:59:16,885 ] 29 root - INFO - data read successfully
-[ 2025-03-14 19:59:16,933 ] 37 root - INFO - data saved successfully
-[ 2025-03-14 19:59:16,978 ] 44 root - INFO - data save to folders succesfully.
-[ 2025-03-14 19:59:17,023 ] 65 root - INFO - reading of tarin and test data is done
-[ 2025-03-14 19:59:17,023 ] 48 root - INFO - cat columns encoding is completed
-[ 2025-03-14 19:59:17,026 ] 77 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.

@@ -1,0 +1,28 @@
+[ 2025-03-17 20:46:37,921 ] 27 root - INFO - insdie data reading
+[ 2025-03-17 20:46:37,922 ] 28 root - INFO - ------>>>>>>>  insdie data reading
+[ 2025-03-17 20:46:37,939 ] 31 root - INFO - data read successfully
+[ 2025-03-17 20:46:37,972 ] 39 root - INFO - data saved successfully
+[ 2025-03-17 20:46:38,010 ] 46 root - INFO - data save to folders succesfully.
+[ 2025-03-17 20:46:38,088 ] 82 root - INFO - Read train and test data completed
+[ 2025-03-17 20:46:38,088 ] 84 root - INFO - Obtaining preprocessing object
+[ 2025-03-17 20:46:38,088 ] 58 root - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2025-03-17 20:46:38,089 ] 59 root - INFO - Numerical columns: ['writing_score', 'reading_score']
+[ 2025-03-17 20:46:38,095 ] 97 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2025-03-17 20:46:38,144 ] 109 root - INFO - Saved preprocessing object.
+[ 2025-03-17 20:46:38,144 ] 18 root - INFO - saev object is called.
+[ 2025-03-17 20:46:38,146 ] 34 root - INFO - Inside model training
+[ 2025-03-17 20:46:39,938 ] 39 root - INFO - train_model_score: 0.9765922252045519
+[ 2025-03-17 20:46:56,497 ] 27 root - INFO - insdie data reading
+[ 2025-03-17 20:46:56,498 ] 28 root - INFO - ------>>>>>>>  insdie data reading
+[ 2025-03-17 20:46:56,508 ] 31 root - INFO - data read successfully
+[ 2025-03-17 20:46:56,547 ] 39 root - INFO - data saved successfully
+[ 2025-03-17 20:46:56,593 ] 46 root - INFO - data save to folders succesfully.
+[ 2025-03-17 20:46:56,639 ] 82 root - INFO - Read train and test data completed
+[ 2025-03-17 20:46:56,640 ] 84 root - INFO - Obtaining preprocessing object
+[ 2025-03-17 20:46:56,640 ] 58 root - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2025-03-17 20:46:56,640 ] 59 root - INFO - Numerical columns: ['writing_score', 'reading_score']
+[ 2025-03-17 20:46:56,642 ] 97 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2025-03-17 20:46:56,687 ] 109 root - INFO - Saved preprocessing object.
+[ 2025-03-17 20:46:56,688 ] 18 root - INFO - saev object is called.
+[ 2025-03-17 20:46:56,689 ] 34 root - INFO - Inside model training
+[ 2025-03-17 20:46:58,998 ] 39 root - INFO - train_model_score: 0.9771512811589033
